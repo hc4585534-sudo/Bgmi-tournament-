@@ -16,7 +16,7 @@ def generate_qr(upi_id, amount, user_id):
 
     return file_name
 
-TOKEN = "8738919261:AAEgXY08KcPqIR8pivHPl0fB9cb6W71xMjk"
+TOKEN = os.getenv("TOKEN")
 ADMIN_IDS = {6877973479}
 QR_ID = "AgACAgUAAxkBAAIDXmm1C2YKzI0n_aR0VRJNo7A-i-GcAAJEDmsbPyypVWVEJ-3okYDwAQADAgADeAADOgQ"
 
